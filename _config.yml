@@ -1,0 +1,74 @@
+# Site settings
+title: SMSC Developers
+version: 0.0.2
+email: info@smsc.com.ar
+description: >
+  Documentación de la API de SMSC.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: https://dev.smsc.com.ar # the base hostname & protocol for your site
+appurl: "https://smsc.com.ar"
+apiurl: https://api.smsc.com.ar
+api_name: "SMSC"
+git_address: https://github.com/dev.smsc.com.ar
+git_edit_address: https://github.com/smsc/dev.smsc.com.ar/
+styleguide: false
+
+# images
+logo_url: "/img/logo.svg"
+tip_image: "img/smsc-tip.png"
+styleguide_img_url: ""
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+plugins:
+  - jekyll-feed
+  - jekyll-redirect-from
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - .idea/
+  - .gitignore
+  - bitbucket-pipelines.yml
+  - README.md
+# timezone: america/argentina/mendoza
+
+defaults:
+  # - scope:
+  #    path: _posts
+  #    type: posts
+  #  values:
+  #    layout: post
+  #    sectionid: blog
+
+  - scope:
+      path: _docs
+      type: docs
+    values:
+      layout: docs
+      permalink: /:collection/:path/
+      sectionid: docs
+
+  - scope:
+      path: _styleguide
+      type: styleguide
+    values:
+      layout: docs
+      sectionid: styleguide
+      seo:
+        type: "WebPage"
+
+collections:
+  docs:
+    # permalink: /:collection/:path/
+    output: true
+
+  styleguide:
+    permalink: /styleguide/:title/
+    output: true
+
+sass:
+  sass_dir: _sass
