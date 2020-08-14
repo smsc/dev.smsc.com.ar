@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a3d1ec8-629c-499f-a023-cfca37c9a393" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/topnav.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/topnav.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/favicon.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/favicon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/favicon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/favicon.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/logo.svg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,10 +54,10 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="693" y="301" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.27.1920.1053/1920.0.1920.1080@0.27.1920.1053" timestamp="1597411099245" />
-    <state x="417" y="275" width="1112" height="554" key="find.popup" timestamp="1597407713238">
+    <state x="417" y="275" width="1112" height="554" key="find.popup" timestamp="1597417280362">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="417" y="275" width="1112" height="554" key="find.popup/0.27.1920.1053/1920.0.1920.1080@0.27.1920.1053" timestamp="1597407713238" />
+    <state x="417" y="275" width="1112" height="554" key="find.popup/0.27.1920.1053/1920.0.1920.1080@0.27.1920.1053" timestamp="1597417280362" />
     <state x="623" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1597411019559">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
