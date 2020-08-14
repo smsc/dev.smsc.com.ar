@@ -1,0 +1,73 @@
+# Site settings
+title: ""
+version: ""
+email: ""
+description: ""
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "" # the base hostname & protocol for your site
+appurl: ""
+apiurl: ""
+api_name: ""
+git_address: ""
+git_edit_address: ""
+show_styleguide: false
+
+# images
+logo_url: ""
+tip_image: ""
+styleguide_img_url: ""
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+plugins:
+  - jekyll-feed
+  - jekyll-redirect-from
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - .idea/
+  - .gitignore
+  - bitbucket-pipelines.yml
+  - README.md
+# timezone: america/argentina/mendoza
+
+defaults:
+# - scope:
+#    path: _posts
+#    type: posts
+#  values:
+#    layout: post
+#    sectionid: blog
+
+- scope:
+    path: _docs
+    type: docs
+  values:
+    layout: docs
+    permalink: /:collection/:path/
+    sectionid: docs
+
+- scope:
+    path: _styleguide
+    type: styleguide
+  values:
+    layout: docs
+    sectionid: styleguide
+    seo:
+      type: "WebPage"
+
+collections:
+  docs:
+    # permalink: /:collection/:path/
+    output: true
+
+  styleguide:
+    permalink: /styleguide/:title/
+    output: true
+
+sass:
+  sass_dir: _sass
